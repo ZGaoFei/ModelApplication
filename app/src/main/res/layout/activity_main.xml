@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.zgf.modelapplication.ui.activity.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tv_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello World!" />
+
+            <Button
+                android:id="@+id/bt_skip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="skip to event bus" />
+
+            <Button
+                android:id="@+id/bt_skip_logger"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="skip to logger" />
+
+            <Button
+                android:id="@+id/bt_skip_butter_knife"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="skip to butter knife" />
+
+            <Button
+                android:id="@+id/bt_skip_dagger2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="skip to dagger2" />
+
+            <Button
+                android:id="@+id/bt_skip_dagger2_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="skip to dagger2 two" />
+
+            <Button
+                android:id="@+id/bt_skip_junit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="skip to junit test" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ModelApplication</string>
+    <string name="title_activity_base">BaseActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_butter_knife_test">ButterKnifeTestActivity</string>
+
+    <string name="test_bk_text">测试 butter knife</string>
+</resources>
