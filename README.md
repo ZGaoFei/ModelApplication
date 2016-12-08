@@ -1,7 +1,7 @@
 #### 模型项目
 
     说明：
-        本项目意在测试一些新的知识的使用，其中包括了
+        本项目意在测试一些新的知识的使用，属于最低级的测试，没有任何的封装。其中包括了
         rxjava, retrofit, rxAndroid, okhttp, eventbus, butterKnife, logger, dagger
         目前包含这些，仅是简单的使用和了解。
         以后准备添加的还有一些图片处理的库，如：
@@ -61,3 +61,6 @@
 
     如果在一个 Activity 中需要添加多个 Module 时，
     可以在 Component 的 @Component(modules = {TestModule.class, SimpleModule.class}) 中添加
+
+> JUnit 和 Mock 构成单元测试
+
