@@ -23,7 +23,8 @@
         <activity android:name=".ui.activity.ButterKnifeTestActivity" />
         <activity android:name=".ui.activity.DaggerTestActivity" />
         <activity android:name=".ui.activity.DaggerTestTwoActivity" />
-        <activity android:name=".ui.activity.JunitTestActivity"></activity>
+        <activity android:name=".ui.activity.JunitTestActivity" />
+        <activity android:name=".ui.activity.PickViewActivity"></activity>
     </application>
 
 </manifest>

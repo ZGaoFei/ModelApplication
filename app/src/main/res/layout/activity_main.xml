@@ -63,6 +63,12 @@
                 android:layout_height="wrap_content"
                 android:text="skip to junit test" />
 
+            <Button
+                android:id="@+id/bt_skip_pick_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="skip to pick view" />
+
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

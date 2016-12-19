@@ -44,6 +44,7 @@ public class MainActivity extends BaseActivity {
     private Button btDagger2;
     private Button btDagger2Two;
     private Button btJunit;
+    private Button btPickView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -77,6 +78,7 @@ public class MainActivity extends BaseActivity {
         btDagger2 = (Button) findViewById(R.id.bt_skip_dagger2);
         btDagger2Two = (Button) findViewById(R.id.bt_skip_dagger2_two);
         btJunit = (Button) findViewById(R.id.bt_skip_junit);
+        btPickView = (Button) findViewById(R.id.bt_skip_pick_view);
     }
 
     @Override
@@ -130,6 +132,14 @@ public class MainActivity extends BaseActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, JunitTestActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btPickView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, PickViewActivity.class);
                 startActivity(intent);
             }
         });
