@@ -69,6 +69,13 @@
                 android:layout_height="wrap_content"
                 android:text="skip to pick view" />
 
+            <Button
+                android:id="@+id/bt_skip_pick_view2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="skip to pick view 2" />
+
+
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
